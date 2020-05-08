@@ -12,7 +12,8 @@ Now if you type `git status', you will see .git folder
 - git add . 
 - git commit -m "Initial Commit" # to add all the project files
 - git log # We should see that the head is pointing to a serie of number. We are therefore ready to start tracking our changes.
-- git status \\
+- git status 
+
 Before pushing from your local directory to the remote repository, make sure that you pull all the files from the remote to the local one. Also, use `git push --force origin master' with precaution. It will delete the files in your remote repository that are not pull into your local/working folder.
 ---
 - git pull --rebase origin
